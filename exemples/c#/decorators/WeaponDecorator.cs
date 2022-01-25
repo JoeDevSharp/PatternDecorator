@@ -1,4 +1,4 @@
-using PatternDecorators
+using PatternDecorators;
 namespace Decorators {
     public class WeaponDecorator: EnemyDecorator {
         public int attackDamage() {
