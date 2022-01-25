@@ -10,10 +10,10 @@ export default abstract class EnemyDecorator implements Enemy {
     life: number;
 
     takeDamage(): number {
-        return this.takeDamage();
+        return this.enemy.takeDamage();
     }
 
     attackDamage(): number {
-        return this.attackDamage();
+        return this.enemy.attackDamage();
     }
 }
